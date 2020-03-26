@@ -4,6 +4,8 @@
 // e per i multipli di 5 stampi “Buzz”.
 // Per i numeri che sono sia multipli di 3 che di 5 stampi” FizzBuzz”.
 
+// creo un alert per le regole del gioco
+
 
 // creo uno ciclo for che faccia 100 cicli
 
