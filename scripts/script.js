@@ -10,20 +10,31 @@
 for (var i = 0; i < 100; i++) {
 
   var num = i + 1;
+  var numPrecedente = document.getElementById('numeri').innerHTML;
 
-  // creo delle condizioni per avere diversi output
-
+  // creo delle condizioni per avere diversi output e creo gli output
   if (num % 5 === 0 && num % 3 === 0) {
+
     num = "FizzBuzz";
-    console.log(num);
+
+    document.getElementById('numeri').innerHTML = numPrecedente + "<li>" + num  + "</li>";
+
   } else if (num % 3 === 0){
+
     num = "Fizz";
-    console.log(num);
+
+    document.getElementById('numeri').innerHTML = numPrecedente + "<li>" + num  + "</li>";
+
   } else if (num % 5 === 0) {
+
     num = "Buzz";
-    console.log(num);
+
+    document.getElementById('numeri').innerHTML = numPrecedente + "<li>" + num  + "</li>";
+
   } else {
-    console.log(num);
+
+    document.getElementById('numeri').innerHTML = numPrecedente + "<li>" + num  + "</li>";
+
   }
 
 }
