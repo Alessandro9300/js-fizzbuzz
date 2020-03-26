@@ -45,6 +45,8 @@ li{
   letter-spacing: 200px;
   color: white;
   opacity: 0;
+  line-height: 1;
+  margin-top: 20px;
 }
 
 @keyframes opacity {
