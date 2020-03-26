@@ -30,11 +30,12 @@ li{
 #welcome{
   animation: color 4s;
   animation-iteration-count: 1;
+  animation-delay: 3s
 }
 #to{
   animation: color 4s;
   animation-iteration-count: 1;
-  animation-delay: 1s;
+  animation-delay: 4s;
 }
 #game{
   animation: opacity 4s;
